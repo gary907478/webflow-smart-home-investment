@@ -17,6 +17,6 @@ window.Webflow.push(() => {
     const navbarLinks = document.querySelector('#nav-blogs');
     navbarLinks.classList.add('nav-current-active');
   }
-  const name = 'John Doe';
+  const name = 'Gary Zhang';
   greetUser(name);
 });
