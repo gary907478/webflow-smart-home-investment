@@ -1,4 +1,4 @@
-import { greetUser } from '$utils/greet';
+import { showVersion } from '$utils/showVersion';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
@@ -17,6 +17,6 @@ window.Webflow.push(() => {
     const navbarLinks = document.querySelector('#nav-blogs');
     navbarLinks.classList.add('nav-current-active');
   }
-  const name = 'v0.0.3';
-  greetUser(name);
+  const name = 'v0.0.4';
+  showVersion(name);
 });
