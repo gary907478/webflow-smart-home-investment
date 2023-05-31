@@ -17,6 +17,6 @@ window.Webflow.push(() => {
     const navbarLinks = document.querySelector('#nav-blogs');
     navbarLinks.classList.add('nav-current-active');
   }
-  const name = 'v0.0.6';
+  const name = 'v0.0.7';
   showVersion(name);
 });
